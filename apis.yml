@@ -1,22 +1,61 @@
 aid: almostapps
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/almostapps.png
 name: AlmostApps
-description: AlmostApps is a company surfaced as a portfolio company of a16z and added to the API Evangelist
-  network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: >-
+  AlmostApps is a Sacramento, California sports-gaming studio founded in 2022 that builds
+  free-to-play mobile entertainment experiences for sports fans, blending casual gameplay
+  with real-life sports scores and stats. Its flagship product, Tailgate, is a free-to-play
+  mobile sports entertainment app designed to enhance the game-day experience for casual
+  sports enthusiasts. The company is backed by Andreessen Horowitz (a16z) and Parade Ventures.
+  AlmostApps is a consumer application company and does not currently publish a public developer
+  API, developer portal, SDK, or API documentation; only a marketing site with Terms of Service
+  and Privacy Policy is publicly available. This profile was surfaced as an a16z portfolio company
+  and added to the API Evangelist network as a company lead.
 url: https://raw.githubusercontent.com/api-evangelist/almostapps/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
 x-backed-by:
 - a16z
+- Parade Ventures
 x-tier: stub
 x-tier-reason: portfolio-lead
+x-api-surface: none
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-18'
 tags:
 - Company
+- Gaming
+- Sports
+- Mobile
+- Entertainment
+- Consumer Apps
 apis: []
+common:
+- type: Website
+  url: https://almostapps.com/
+- type: TermsOfService
+  url: https://almostapps.com/terms-of-service
+- type: PrivacyPolicy
+  url: https://almostapps.com/privacy-policy
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
